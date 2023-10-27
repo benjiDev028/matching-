@@ -1,0 +1,726 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+
+.container{min-width:300px !important;}
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  min-height:100%;
+  height:auto;
+  background-image:url('../images/spring/lavalife_regist_welcome_fullscreen_v1.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:100% 80%;}
+ .container-full.blurred{
+  background-image:url('../images/spring/lavalife_bg_spring_2015.jpg'); }
+	.container-full.blurred #footer{
+		position:absolute;
+		bottom:0;}
+		.container-full.split{
+			background:transparent !important;
+		    height: 100vh;
+    		border:solid 8px #fff;
+    		max-height: 800px
+		}
+ .container-full.alt{
+	background-image:url('../images/spring/lavalife_regist_welcome_fullscreen_v2.jpg'); }
+.container-full.logout{
+  background-image:none !important;
+  height:100%;
+  padding:8% 0 200px;}
+  .container-full.logout .col-md-12{
+	max-width:1400px;
+	min-width:1000px;
+	float:none;
+	margin:auto;}
+ 
+.white-box{
+	background-color:#ffffff;
+	margin-top:10%;
+	margin-bottom:150px;
+	padding:80px 0;
+	width:100%;
+	text-align:center;}
+.white-box h1{
+	font-size:48px;
+	font-weight:300;
+	margin-bottom:20px;}
+.white-box p{
+	color:#757575;
+	margin-bottom:20px;}
+	
+h2.branded {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  color: #fff;
+  font-size: 68px;
+  line-height:100%;}
+  
+a.signup-btn {
+  line-height: 30px;
+  font-size: 18px;
+  height: 40px;
+  color: #fff;
+  max-width:180px;
+  background: #FF0000 url("../images/icons/ll_registration_bttn_ic_signup.png") right 10px center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  border-radius:3px;
+  font-weight:700;
+  float:right;}
+  a.signup-btn:hover {
+    background-color: #AA0000; }
+
+a.login-btn {
+  height: 40px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #212121;
+  max-width:180px;
+  background: white url("../images/icons/ll_registration_bttn_ic_login.png") right 10px center;
+  background-repeat: no-repeat;
+  background-size: 25px 25px;
+  border-radius:3px;
+  font-weight:700;  }
+  a.login-btn:hover {
+    background-color: #fff; }
+
+/* ************************************************ */
+/* *************** Home Page ************/
+/* ************************************************ */
+.signup-home-btn.call{
+	padding-left: 30px;
+	margin-top: 20px;
+}
+.signup-home-btn.call:hover{    
+    padding-left: 15px;
+    background: #ff0000 url("../images/icons/ll_registration_bttn_ic_phone.png") right 10px center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
+.home-header{
+	padding:30px;
+	position:absolute;
+	z-index:9999;
+	width:100%;
+}
+.home-header .social-icons{
+	position:relative;
+	float:right;
+	border-radius:2px;
+	border:solid 1px #ffffff;
+	background-color:#ffffff;}
+	.home-header .social-icons .roll-buffer{
+	  position: absolute;
+	  height: 170%;
+	  width: 110%;
+	  top: -15px;
+	  left: -10px;}
+	.home-header .social-icons:hover{
+		opacity:1;
+		background:#ffffff;
+		border:solid 1px #ffffff;}
+.home-header .col-xs-2{
+	padding:2px;
+}
+
+.social-icons{
+	width:240px;
+	padding:10px 0;
+	height:48px;
+}	
+.social-icons img{
+width:20px;
+transition:.2s width, .2s margin;}
+	.social-icons img:hover{
+	width:24px;
+	margin-top:-2px;
+	margin-left:-2px;}
+
+.home-page-top {
+	position: relative;
+	height: 100%;
+	margin-top:60px;
+	background-repeat: no-repeat; }
+.home-page-top .stylin{
+	font-family: 'PT Sans', sans-serif;
+}
+.home-page-top.split{margin-top:0px;}
+.home-page-top .ll-voice-plug {
+	background-image: url('../images/backgrounds/LL_left_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: 25% 0;
+    border-right: solid 16px #FFF;
+    position: relative;
+    padding: 120px 40px 0;
+    text-transform:uppercase;
+}
+.home-page-top .ll-voice-plug h1{
+	font-size:52px;
+	color:#ffffff;
+    margin-bottom: 0px;
+    line-height: 100%;
+    font-weight: 800;
+}
+.home-page-top .ll-voice-plug .redTxt{
+	font-weight:800;
+	color:#ff0000;
+    font-size: 22px;
+}
+.home-page-top .ll-voice-plug p{
+	font-size:16px;
+	color:#ffffff;
+	text-transform: uppercase;
+	margin-bottom:0;
+	line-height: 120%;
+	font-family: 'PT Sans', sans-serif;
+}
+.home-page-top .ll-voice-plug img{
+    position: absolute;
+    top: 37%;
+    right: -108px;
+    border: solid 12px #ffffff;
+    z-index: 99;
+    width:200px;
+    height:200px;
+    background-color:#fff;
+    border-radius: 50%;
+}
+.home-page-top .signup-home {
+    padding: 40px 40px 40px 40px;
+    height: 100%;
+    z-index: 10;
+    font-family: "Open Sans", sans-serif;
+    background-image: url('../images/backgrounds/LL_right_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 58% 80%;
+    top:0px;
+}
+.home-page-top .signup-home h1{
+	text-align:center;
+	font-size:42px;
+	font-weight:300;}
+.home-page-top .signup-home p{
+	text-align:center;
+	color:#757575;
+	max-width:550px;
+	padding-bottom:20px;
+	margin:auto;
+	line-height:200%;}
+.home-page-top .signup-home span {
+	color:#ffffff;
+	padding:5px;
+	font-size:16px;}
+	.home-page-top .signup-home span .big-text{
+		background:transparent;
+		font-size:21px;
+		text-transform:uppercase;
+		font-weight:600;}
+.home-page-top .signup-home .login-btn{
+	border:solid 1px #ff0000;
+	color:#ff0000;
+}
+.home-page-top .main-img{
+	margin:80px auto 20px auto;
+	display:block;
+	max-width:100%;
+	padding-bottom:10px;
+	border-bottom:solid 1px #fff;
+	width: 75%;
+}
+
+.signup-login-holder{
+	margin-top:20px;
+}
+
+.signup-disclaimer{
+	font-size:12px;
+	margin-top:20px;}
+.home-page-top .signup-home .signup-disclaimer p{
+	color:#bdbdbd;
+	margin:auto;
+	width:40%;}
+.home-page-top .signup-home .signup-disclaimer a{
+	text-decoration:none;
+	color:#bdbdbd;
+}
+
+
+.logo-big{
+	width:150px;
+	height:150px;
+	background-image:url('../images/landing/ll_logo_circle_red_big.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin:0 auto 20px;
+}
+
+.logo-red{
+	width:240px;
+	height: 75px;
+	background-image:url('../images/icons/ll_logo_red.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+	margin:0 auto 10px;
+}
+
+.icon-question{
+	width:30px;
+	height:30px;
+	background-image:url('../images/icons/ll_registration_ic_question.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+h1.light{
+	font-family: "Open Sans", sans-serif;
+	font-weight:200;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:720px;
+}
+
+.feat-icon{
+	width:75px;
+	height:75px;
+	margin:0 auto 20px;
+}
+
+.screen-shot{
+	border:solid 2px #dddddd;
+	width:80%;
+	height:80%;
+	margin:auto;}
+.screen-shot img{
+	width:100%;}
+
+.section-two{
+	background-color:#ff1f1f;}
+.section-two h1{
+	padding:0 20px;
+	color:#ffffff;
+	margin-top:0px;}
+.section-two h3{
+	text-align:center;
+	color:#ffffff;
+	font-weight:600;
+	margin-bottom:0px;}
+.section-two .overlay{
+	/*background-color:rgba(255,0,0,.85);*/
+	width:100%;
+	height:100%;
+	padding:40px 0;}
+
+.section-three{
+	padding:80px 0;
+	background-color:#ffffff;}
+.section-three h1{
+	max-width:640px;
+	color:#212121;}
+.section-three .col-md-4 h1{
+	margin-bottom:20px;}
+.section-three h2{
+	text-align:center;
+	margin-top:0px;
+	max-width:700px;
+	margin:auto;
+	line-height:120%;}
+.section-three h3{
+	text-align:center;
+	color:#757575;
+	text-transform:uppercase;
+	margin-bottom:5px;
+	font-size:16px;}
+.section-three .feature{margin:auto;margin-top:40px;}
+.section-three .feature p{width:80%;}
+.section-three p{
+	margin:auto;
+	color:#757575;
+	margin-bottom:20px;
+	text-align:center;
+	height:70px;}
+.section-three .col-md-4.col-sm-8 p{
+	height:auto;
+	margin}
+.section-three a{
+	text-decoration:none;}
+.section-three a:hover{
+	color:#ff0000;}
+.section-three span{
+	color:#ff0000;}
+.section-three.bottom-section{
+	padding:200px 0;}
+.section-three .social-icons{
+	margin:auto;}
+.section-three .img-responsive{
+	margin:40px auto 0;
+}
+
+.section-four{
+	padding:200px 0; 
+	background-image:url('../images/spring/ll_welcome_app_bg.jpg');
+	background-position:50% 0%;
+	background-repeat:no-repeat;
+	color:#ffffff;}
+.section-four h1{
+	text-align:left;
+	margin-bottom:20px;
+	color:#ffffff;}
+.section-four .on-the-go .logo-red{
+	margin:0;
+	width:175px;}
+.section-four .on-the-go p{
+	margin-bottom:60px;}
+.section-four a {
+	color:#ffffff !important;
+	text-decoration:underline;
+}
+	
+.section-five{
+	padding:80px 0 60px 0;
+	background-color:#e3e3e3;}
+.section-five .footer-links a{
+	font-size:18px;
+	display:block;
+	margin-bottom:10px;
+	color:#999999;}
+.section-five .footer-links a:hover{
+	color:#212121;
+	text-decoration:underline;
+}
+.section-five .footer-icons{	
+	background-color:rgba(255,0,0, .10);
+	padding:20px 0;
+	margin-top:40px;}
+	
+.landing-footer #footer{
+	background-color:#9b9b9b;
+	height:auto;
+	position:relative;}
+.landing-footer #footer p.terms a{
+	color:#ffffff;
+}	
+
+/* ************************************************ */
+/* *************** Registration ************/
+/* ************************************************ */
+
+.register-holder #register h2, .register-holder #login h2, .login-holder #register h2, .login-holder #login h2 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  line-height: 25px;
+  margin-left:-35px;
+  margin-right:-35px;
+  color:#ffffff;
+  background-color:#ff0000;
+  padding: 10px 50px;
+}
+.register-holder h2 span{
+	color:#ffffff !important; 
+}
+.register-holder .logo-form{
+	width:100%;
+	height:72px;
+	background-image:url('../images/icons/ll_logo-x2.png');
+	background-repeat:no-repeat;
+}
+
+.clearfix{clear:both;}
+
+/* ************************************************ */
+/* *************** Accordion ************/
+/* ************************************************ */
+
+.accordion{
+	text-align:left;
+	margin-top:20px;}
+.accordion h3{
+	color:#757575;
+	cursor:pointer;
+	font-weight:600;
+	padding-bottom:10px;
+	border-bottom:1px solid #dddddd;
+	background-image:url('../images/landing/help/ll_ic_triangle.png');
+	background-repeat:no-repeat;
+	background-position:left 10px;
+	padding-left:20px;}
+.accordion h3:hover{
+	color:#ff0000 !important;
+	background-image:url('../images/landing/help/ll_ic_triangle_rollover.png') !important;}
+.accordion .content{
+	overflow:hidden;
+	height:0px;}
+
+@media screen and (max-width: 1500px){
+	.container-full{
+		background-image:url('../images/spring/lavalife_regist_welcome_fullscreen_v1.jpg');
+		background-position: 50% 100%;
+	}
+
+	.home-page-top .ll-voice-plug{
+		background-size: 140%;
+    	background-position: 0% 60%;
+	}
+	
+	.positionChange{
+		position:relative !important;
+		top:0px;
+		left:0px;
+	}
+
+	.home-page-top .ll-voice-plug img{
+	    width: 150px;
+		height: 150px;
+		top:40%;
+		right:-82px;
+	}
+	
+}
+
+/*IPAD HAX*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.home-page-top .ll-voice-plug {
+   	 	background-size:cover;
+   	}
+	.container-full.split{
+		height:768px !important;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.social-icons{display:none;}
+	.home-page-top .ll-voice-plug{
+		border:none;
+		height:auto;
+        background-size: 140%;
+   		background-position: 0% 60%;
+   		padding: 100px 20px 40px;
+   		border-bottom:solid 8px #ffffff;
+	}
+	.home-page-top .signup-home{
+		height:auto;
+		padding-top:40px;
+	}
+	.container-full.split {
+		border:none;
+		height:auto;
+	}
+	.container-full.split .main-img{
+		margin-top:0px;
+	}
+}
+
+/* ************************************************ */
+/* *************** Contact Form ******************* */
+/* ************************************************ */
+#contact-form .col-md-5, #contact-form .col-md-7{
+	margin-bottom:10px;
+}
+#contact-form input, #contact-form select, #contact-form textarea{
+	border-color:#dddddd !important;
+	background:#eeeeee;
+	width:100%;
+}
+#contact-form input{margin-bottom:5px;}
+#contact-form textarea{height:150px;}
+
+.errors{
+	color:red;
+}
+
+.send {
+	background:#ff0000;
+	color:#ffffff;
+	font-weight:600;
+	text-align:center;
+	padding:5px 10px;
+	cursor:pointer;}
+.send:hover{
+	background:#bb0000;
+}
+
+/* ************************************************ */
+/* *************** Logout ******************* */
+/* ************************************************ */
+.wrapper{
+	min-width:950px;
+	max-width:1200px;
+	margin:auto;
+}
+.over-img{
+	position:relative;
+	height:400px;}
+	.over-img > div > div > img{
+		top:-100px;
+		width:100%;
+		min-width:400px;
+		position:absolute;
+		z-index:999;}
+.white-bar{
+	position:absolute;
+	bottom:0px;
+	background-color:#ffffff;
+	padding:40px 0 100px;
+	width:100%;
+	height:380px;}
+		.white-bar p{
+		color:#757575;}
+
+/* ************************************************ */
+/* *************** Components ******************* */
+/* ************************************************ */
+
+.scroll-to-top{
+	position:fixed;
+	bottom:60px;
+	right:40px;
+	width:32px;
+	height:32px;
+	padding-top:10px;
+	cursor:pointer;
+	background-image:url('../images/icons/ll_welcome_ic_scrolltop.png');
+}
+.scroll-to-top:hover{
+	background-image:url('../images/icons/ll_welcome_ic_scrolltop_rollover.png');
+}
+
+.login-button{
+	background-image:url('../images/landing/ll_welcome_button_ic_login.png');
+	width:160px;
+	height:40px;
+	display:block;
+	margin:auto;
+	background-repeat:no-repeat;
+	float:left;
+}
+.login-button:hover{
+	background-image:url('../images/landing/ll_welcome_button_ic_login_rollover.png');
+}
+
+.signup-button{
+	background-image:url('../images/landing/ll_welcome_button_ic_signup.png');
+	width:160px;
+	height:40px;
+	display:block;
+	background-repeat:no-repeat;
+	float:right;
+}
+.signup-button:hover{
+	background-image:url('../images/landing/ll_welcome_button_ic_signup_rollover.png');
+}
+
+/* ************************************************ */
+/* *************** Help Holder ******************* */
+/* ************************************************ */
+
+.help-holder {
+  height: 760px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+.help-holder h2{
+	color:#ff0000;
+	margin:0;
+	padding:60px;
+	border-bottom:solid 1px #bdbdbd;
+}
+.help-holder .bottom-contact{
+	padding:40px;}
+	.help-holder .bottom-contact a{
+		color:#ff0000;
+		cursor:pointer;}
+.help-holder .left{
+	background-image: url("../images/FFFFFF-0.8.png");
+	border-right:solid 1px #bdbdbd;
+	padding:0px;
+	height:100%;}
+	.help-holder .left div[class^="item"]{
+		font-weight:600;
+		padding:20px 60px;
+		color:#757575;
+		border-bottom:solid 1px #bdbdbd;
+		cursor:pointer;}
+		.help-holder .left div[class^="item"]:hover{
+			color:#ff0000;}
+		.help-holder .left div[class^="item"].active{
+			color:#ff0000;}
+.help-holder .right{
+	padding:60px 60px;
+	background-color:#ffffff;
+	height:100%;
+	overflow:auto;}
+	.help-holder .right .row img{
+		width:100%;}
+	.help-holder .right .row{
+		padding-bottom:40px;}
+	.help-holder .right .partition{
+		padding-bottom:40px;}
+	.help-holder .right .accordian p{
+		padding-bottom:20px;}
+.help-holder .info-box{
+	color:#757575;
+	background:#f1f1f1;
+	padding:20px 40px;
+	margin-bottom:100px;}
+	.help-holder .info-box p{
+		margin:0px;}
+		
+.nav  li[class^="item"]{
+	cursor:pointer;}
+	.nav li[class^="item"]:hover{
+		color:#ff0000;
+	}
+		
+#livechat-compact-container{
+	height:50px !important;
+}
+		
+@media screen and (max-width: 768px){
+	.scroll-to-top{bottom: 30px;}
+	#livechat-compact-container{display:none;}
+	.help-holder {border:none;}
+	.help-holder .right{
+		float:none;
+		margin:auto;
+		width:100%;
+	}
+	.help-holder .left{display:none;}
+	.home-page-top .ll-voice-plug h1{font-size: 30px;}
+	.home-page-top .ll-voice-plug .redTxt{font-size:22px;}
+	.home-page-top .ll-voice-plug p{font-size:14px;}
+	.home-header > img{width: 200px;}
+}
+
+/* Responsive YouTube */
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#footer.links-footer{
+	padding:20px;
+	background:#fcfcfc;
+	position:fixed !important;
+}
+
+#footer.links-footer a{
+	margin-right:20px;}
