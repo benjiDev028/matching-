@@ -25,9 +25,12 @@ namespace matching.Models
         public string  lookingfor { get; set; }
 
         public string photo {  get; set; }
+        
 
         public virtual ICollection<Message> MessagesRecus {  get; set; }
         public virtual ICollection <Message> MessagesEnvoyes { get; set;}
+
+        public virtual ICollection<Amitie> Amities { get; set; }
 
     }
 }

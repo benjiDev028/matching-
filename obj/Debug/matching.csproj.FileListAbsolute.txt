@@ -52,7 +52,6 @@ C:\Users\Admin\source\repos\matching\bin\roslyn\VBCSCompiler.exe
 C:\Users\Admin\source\repos\matching\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Admin\source\repos\matching\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Admin\source\repos\matching\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Admin\source\repos\matching\obj\Debug\matching.csproj.AssemblyReference.cache
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.csproj.CoreCompileInputs.cache
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.csproj.CopyComplete
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.dll
@@ -64,3 +63,4 @@ C:\Users\Admin\source\repos\matching\bin\EntityFramework.SqlServer.xml
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.Migrations.InitialCreate.resources
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.csproj.GenerateResource.cache
 C:\Users\Admin\source\repos\matching\obj\Debug\matching.Migrations.AddNewFieldToUtilisateur.resources
+C:\Users\Admin\source\repos\matching\obj\Debug\matching.Migrations.ajoutModelNotifAndAmitie.resources

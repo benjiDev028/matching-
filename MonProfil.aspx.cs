@@ -31,6 +31,8 @@ namespace matching
                         //ddlInters.Items.Add("homme");
                         //ddlInters.Items.Add("femme");
 
+
+
                         //ajout city
                         ddlCity.Items.Insert(0, new ListItem(user.ville));
                         //ajout relation rechercher
@@ -187,6 +189,11 @@ namespace matching
                 db.SaveChanges();
                 Response.Redirect("accueil.aspx");
             }
+        }
+
+        protected void btnCancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("accueil.aspx");
         }
     }
 }

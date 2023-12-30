@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\matching\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|c:\\users\\admin\\source\\repos\\matching\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:models\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\crudmessage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:crudmessage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:discussion.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:discussion.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|C:\\Users\\Admin\\source\\repos\\matching\\accueil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{E4F98909-A26E-4B52-9A13-84EAF805A057}|matching.csproj|solutionrelative:accueil.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 340,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\login.aspx",
+              "RelativeDocumentMoniker": "login.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\login.aspx",
+              "RelativeToolTip": "login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2023-10-28T02:44:33.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "accueil.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\accueil.aspx",
+              "RelativeDocumentMoniker": "accueil.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\accueil.aspx",
+              "RelativeToolTip": "accueil.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2023-10-28T02:45:49.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "discussion.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx",
+              "RelativeDocumentMoniker": "discussion.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx",
+              "RelativeToolTip": "discussion.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2023-10-27T22:09:05.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwA4AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-30T13:55:13.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\Models\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "Models\\Utilisateur.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\Models\\Utilisateur.cs",
+              "RelativeToolTip": "Models\\Utilisateur.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-30T15:23:32.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "crudMessage.aspx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\crudMessage.aspx",
+              "RelativeDocumentMoniker": "crudMessage.aspx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\crudMessage.aspx",
+              "RelativeToolTip": "crudMessage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
+              "WhenOpened": "2023-10-30T12:56:59.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "discussion.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx.cs",
+              "RelativeDocumentMoniker": "discussion.aspx.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\matching\\discussion.aspx.cs",
+              "RelativeToolTip": "discussion.aspx.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001384|",
+              "WhenOpened": "2023-10-28T02:46:29.449Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

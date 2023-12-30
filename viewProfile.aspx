@@ -6,6 +6,19 @@
     <title>User Profile</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style type="text/css">
+        .auto-style1 {
+            position: relative;
+            width: 100%;
+            -ms-flex: 0 0 33.333333%;
+            flex: 0 0 33.333333%;
+            max-width: 33.333333%;
+            left: 0px;
+            top: 0px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -66,29 +79,19 @@
                     <p runat="server" id="lblLook"><strong>Preference</strong><br /></p>
                     <p><strong>Will You Click?</strong><br /> Send a message to learn more about her/he.</p>
                     <!-- View Profile Button -->
-                    <a href='<%="discussion.aspx?refM=" + refId %>' class="btn btn-primary">CHAT</a>
+                    <a href='<%="discussion.aspx?refM=" + refId %>' class="btn btn-primary">CHAT</a>&nbsp;
+                    <a href='<%="notifaction.aspx?refM=" + refId %>' class="btn btn-primary">connaissance ? </a>&nbsp;
                 </div>
             </div>
         </div>
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Font Awesome for social icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
+       
 
 <!-- Footer -->
 <footer class="bg-dark text-white p-4">
     <div class="container">
         <div class="row">
             <!-- Lavalife.com Discussion Section -->
-            <div class="col-md-4">
+            <div class="auto-style1">
                 <h5>Lavalife.com Discussion</h5>
                 <p>
                     Lavalife.com is Where Singles Click...and have since 2001! We're committed to offering our members a fun and safe place to meet new people.
@@ -140,10 +143,3 @@
 </body>
 </html>
 
-
-    <!-- Optional Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </form>
-</body>
-</html>

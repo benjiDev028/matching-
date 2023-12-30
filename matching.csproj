@@ -75,10 +75,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="accueil.aspx" />
+    <Content Include="crudMessage.aspx" />
     <Content Include="discussion.aspx" />
     <Content Include="MonProfil.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
+    <Content Include="notification.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="viewProfile.aspx" />
     <Content Include="Web.config" />
@@ -91,6 +93,13 @@
     <Compile Include="accueil.aspx.designer.cs">
       <DependentUpon>accueil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="crudMessage.aspx.cs">
+      <DependentUpon>crudMessage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="crudMessage.aspx.designer.cs">
+      <DependentUpon>crudMessage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Data\SiteDeRencontreContext.cs" />
     <Compile Include="discussion.aspx.cs">
       <DependentUpon>discussion.aspx</DependentUpon>
@@ -99,6 +108,12 @@
     <Compile Include="discussion.aspx.designer.cs">
       <DependentUpon>discussion.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202312300339345_ajoutModelNotifAndAmitie.cs" />
+    <Compile Include="Migrations\202312300339345_ajoutModelNotifAndAmitie.designer.cs">
+      <DependentUpon>202312300339345_ajoutModelNotifAndAmitie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Amitie.cs" />
+    <Compile Include="Models\Notification.cs" />
     <Compile Include="MonProfil.aspx.cs">
       <DependentUpon>MonProfil.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -131,6 +146,13 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Message.cs" />
     <Compile Include="Models\Utilisateur.cs" />
+    <Compile Include="notification.aspx.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notification.aspx.designer.cs">
+      <DependentUpon>notification.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>
@@ -165,6 +187,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202310151501408_AddNewFieldToUtilisateur.resx">
       <DependentUpon>202310151501408_AddNewFieldToUtilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312300339345_ajoutModelNotifAndAmitie.resx">
+      <DependentUpon>202312300339345_ajoutModelNotifAndAmitie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

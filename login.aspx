@@ -123,7 +123,7 @@
                             <asp:RequiredFieldValidator ID="reqMdp" runat="server" ErrorMessage="remplir password" ControlToValidate="txtPassword" ForeColor="Red"></asp:RequiredFieldValidator>
 							
 							
-							
+							<%--  --%>
 							<div class="devider-line"></div>
 							
 							<div id="" style="text-align: center; margin-top: 25px; margin-bottom:25px;color:#757575;">Not a member yet? <strong><a href="signup.aspx">Sign Up.</a></strong></div>

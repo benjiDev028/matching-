@@ -23,6 +23,10 @@ namespace matching
                     var user = db.Utilisateurs.FirstOrDefault(u=> u.Id == refId);
 
                     lblNom.InnerHtml = user.Prenom.ToString() + user.Nom.ToString();
+                    lblVille.InnerHtml = user.ville.ToString();
+                    lblLook.InnerText = user.lookingfor.ToString();
+                    
+                   var relation = db.
                 }
             }
             
